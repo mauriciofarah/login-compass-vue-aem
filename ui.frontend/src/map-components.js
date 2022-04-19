@@ -4,7 +4,8 @@ import CheckBox from './components/Checkbox/Checkbox'
 import Header from './components/Header/Header'
 import Image from './components/Image/Image'
 import Button from './components/Button/Button.vue'
-import LoginBackground from './components/LoginBackground/LoginBackground.vue'
+import CustomClasses from './components/CustomClasses/CustomClasses.vue'
+import RightLogin from './components/RightLogin/RightLogin.vue'
 import {
   withComponentMappingContext,
   AllowedComponentsContainer,
@@ -25,8 +26,11 @@ const EditConfig = {
               ↓  NEW COMPONENTS MAPPING COME HERE  ↓
 **********************************************************************/
 
-MapTo('vue/components/button')(Button)
-MapTo('vue/components/login-background')(LoginBackground)
+MapTo('vue/components/button')(Button, EditConfig)
+
+MapTo('vue/components/custom-classes')(CustomClasses, EditConfig)
+
+MapTo('vue/components/right-login')(RightLogin, EditConfig)
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)

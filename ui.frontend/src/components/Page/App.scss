@@ -5,11 +5,6 @@
 $fa-css-prefix: 'el-icon-fa';
 $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/regular.scss';
-@import '~@fortawesome/fontawesome-free/scss/solid.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
-
 // Override Element UI's icon font
 .fas {
   font-family: 'Font Awesome 5 Free' !important;
@@ -20,16 +15,22 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 }
 
 // Global scss styles
-.background-image {
+/* .background-image {
     background: url('../../assets/notebook.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 .background-color {
     background-color: #1d1e20;
     height: 500px;
     width: 500px;
+}
+
+body {
+  margin: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
