@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <img :src="uolLogo" alt="uolLogo" />
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
 div {
   display: flex;
   justify-content: center;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 img {

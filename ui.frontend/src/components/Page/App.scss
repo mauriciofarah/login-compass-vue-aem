@@ -1,5 +1,6 @@
 // Import Fonts from Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/mark-pro');
 
 // Import Font Awesome 5 Free
 $fa-css-prefix: 'el-icon-fa';
@@ -15,20 +16,6 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 }
 
 // Global scss styles
-/* .background-image {
-    background: url('../../assets/notebook.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
-.background-color {
-    background-color: #1d1e20;
-    height: 500px;
-    width: 500px;
-}
-
 body {
   margin: 0px;
   overflow-y: hidden;

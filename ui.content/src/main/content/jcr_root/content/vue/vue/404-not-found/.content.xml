@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-18T10:47:46.526-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="404 not found"
+        sling:resourceType="vue/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-10-22T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-22T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text_167393952
+                    cq:styleIds="[1649785942490]"
+                    jcr:created="{Date}2022-04-18T09:35:52.043-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T09:36:57.043-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/text"
+                    className="not-found"
+                    text="404 not found">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="23"/>
+                    </cq:responsive>
+                </text_167393952>
+                <image
+                    jcr:created="{Date}2022-04-18T09:37:05.961-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T09:37:32.529-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/image"
+                    alt="espantalho"
+                    displayPopupTitle="true"
+                    fileName="content.png"
+                    isDecorative="false">
+                    <file/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="9"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="22"/>
+                    </cq:responsive>
+                </image>
+                <text
+                    jcr:created="{Date}2022-04-18T09:38:01.398-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T09:42:17.348-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/text"
+                    className="title-text"
+                    text="&lt;h1>I have bad news for you&lt;/h1>">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="23"/>
+                    </cq:responsive>
+                </text>
+                <text_868298860
+                    jcr:created="{Date}2022-04-18T09:38:29.543-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T09:38:59.918-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/text"
+                    className="subtitle-text"
+                    text="The page you are looking for might be removed or is temporarily unavailable">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="23"/>
+                    </cq:responsive>
+                </text_868298860>
+                <button
+                    jcr:created="{Date}2022-04-18T09:38:40.654-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T09:38:40.654-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/button">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="9"/>
+                    </cq:responsive>
+                </button>
+                <text_219548701
+                    jcr:created="{Date}2022-04-18T09:39:13.976-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T09:39:54.435-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/text"
+                    className="footer"
+                    text="created by maufarah - devChallenges.io">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="24"/>
+                    </cq:responsive>
+                </text_219548701>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

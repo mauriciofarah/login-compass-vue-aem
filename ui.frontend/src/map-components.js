@@ -1,16 +1,18 @@
-import Text from './components/Text/Text'
-import AppPage from './components/Page/AppPage'
+import {
+  AllowedComponentsContainer,
+  MapTo, withComponentMappingContext
+} from '@mavice/aem-vue-editable-components'
+import Button from './components/Button/Button.vue'
+import ButtonLogin from './components/ButtonLogin/ButtonLogin.vue'
 import CheckBox from './components/Checkbox/Checkbox'
+import CustomClasses from './components/CustomClasses/CustomClasses.vue'
 import Header from './components/Header/Header'
 import Image from './components/Image/Image'
-import Button from './components/Button/Button.vue'
-import CustomClasses from './components/CustomClasses/CustomClasses.vue'
+import Input from './components/Input/Input.vue'
+import LoginText from './components/LoginText/LoginText.vue'
+import AppPage from './components/Page/AppPage'
 import RightLogin from './components/RightLogin/RightLogin.vue'
-import {
-  withComponentMappingContext,
-  AllowedComponentsContainer,
-  MapTo
-} from '@mavice/aem-vue-editable-components'
+import Text from './components/Text/Text'
 
 MapTo('vue/components/page')(withComponentMappingContext(AppPage))
 
@@ -28,9 +30,15 @@ const EditConfig = {
 
 MapTo('vue/components/button')(Button, EditConfig)
 
-MapTo('vue/components/custom-classes')(CustomClasses, EditConfig)
+MapTo('vue/components/buttonLogin')(ButtonLogin, EditConfig)
 
-MapTo('vue/components/right-login')(RightLogin, EditConfig)
+MapTo('vue/components/customClasses')(CustomClasses, EditConfig)
+
+MapTo('vue/components/rightLogin')(RightLogin, EditConfig)
+
+MapTo('vue/components/loginText')(LoginText, EditConfig)
+
+MapTo('vue/components/input')(Input, EditConfig)
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)

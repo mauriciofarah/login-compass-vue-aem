@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-04-12T00:34:47.657-03:00"
+        cq:lastModified="{Date}2022-04-12T09:59:47.092-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
