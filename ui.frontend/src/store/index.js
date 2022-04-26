@@ -1,17 +1,16 @@
-import logins from '@/server/logins.json'
 import Vue from 'vue'
 import Vuex, { Store } from 'vuex'
+import * as AuthorizationUser from './userAuthorization'
 
 Vue.use(Vuex)
 
-console.log(logins)
-
-const authorization = {
-  isValid: false
+const userAuthorization = {
+  namespaced: true,
+  ...AuthorizationUser
 }
 
 export default new Store({
   modules: {
-    authorization
+    userAuthorization
   }
 })

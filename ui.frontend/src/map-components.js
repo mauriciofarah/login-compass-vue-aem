@@ -2,17 +2,19 @@ import {
   AllowedComponentsContainer,
   MapTo, withComponentMappingContext
 } from '@mavice/aem-vue-editable-components'
-import Button from './components/Button/Button.vue'
-import ButtonLogin from './components/ButtonLogin/ButtonLogin.vue'
+import Button from './components/Button/Button'
+import ButtonLogin from './components/ButtonLogin/ButtonLogin'
 import CheckBox from './components/Checkbox/Checkbox'
-import CustomClasses from './components/CustomClasses/CustomClasses.vue'
+import CustomClasses from './components/CustomClasses/CustomClasses'
+import ErrorMessage from './components/ErrorMessage/ErrorMessage'
 import Header from './components/Header/Header'
+import HomeLogo from './components/HomeLogo/HomeLogo'
 import Image from './components/Image/Image'
-import Input from './components/Input/Input.vue'
-import LoginText from './components/LoginText/LoginText.vue'
-import MobileLogo from './components/MobileLogo/MobileLogo.vue'
+import Input from './components/Input/Input'
+import LoginText from './components/LoginText/LoginText'
+import MobileLogo from './components/MobileLogo/MobileLogo'
 import AppPage from './components/Page/AppPage'
-import RightLogin from './components/RightLogin/RightLogin.vue'
+import RightLogin from './components/RightLogin/RightLogin'
 import Text from './components/Text/Text'
 
 MapTo('vue/components/page')(withComponentMappingContext(AppPage))
@@ -42,6 +44,10 @@ MapTo('vue/components/loginText')(LoginText, EditConfig)
 MapTo('vue/components/input')(Input, EditConfig)
 
 MapTo('vue/components/mobileLogo')(MobileLogo, EditConfig)
+
+MapTo('vue/components/homeLogo')(HomeLogo, EditConfig)
+
+MapTo('vue/components/errorMessage')(ErrorMessage, EditConfig)
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)

@@ -1,5 +1,4 @@
-// @ts-ignore
-// import store from '@/store/index.js'
+import store from '@/store/index.js'
 import { AuthoringUtils, ModelManager } from '@adobe/aem-spa-page-model-manager'
 import { Constants } from '@mavice/aem-vue-editable-components'
 import Vue from 'vue'
@@ -12,8 +11,7 @@ Vue.use(VueRouter)
 document.addEventListener('DOMContentLoaded', () => {
   ModelManager.initialize().then(pageModel => {
     new Vue({
-      // @ts-ignore
-      // store,
+      store,
       router: new VueRouter({
         mode: 'history',
         routes: []
