@@ -5,12 +5,12 @@
     jcr:uuid="ebd833d9-879a-47f5-a398-d33c6193a7f9">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-04-20T11:11:35.220-03:00"
+        jcr:lastModified="{Date}2022-04-22T10:34:44.685-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2022-04-20T11:11:34.867-03:00"
+            dam:extracted="{Date}2022-04-22T10:34:43.864-03:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-22T10:32:35.837-03:00"
+        cq:lastModified="{Date}2022-04-25T16:26:49.895-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -21,61 +21,21 @@
                 <container_1584677994
                     jcr:created="{Date}2022-04-18T15:50:52.443-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-18T15:50:52.443-03:00"
+                    jcr:lastModified="{Date}2022-04-22T11:28:46.724-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="vue/components/container">
-                    <logintext
-                        jcr:created="{Date}2022-04-19T15:35:07.943-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-19T15:35:24.625-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/loginText"
-                        className="title-text"
-                        text="Olá,"/>
-                    <logintext_1380556678
-                        jcr:created="{Date}2022-04-19T15:35:50.084-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-19T15:36:14.548-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/loginText"
-                        className="subtitle-text"
-                        text="Para continuar navegando de forma segura, efetue o login na rede."/>
-                    <logintext_386356640
-                        jcr:created="{Date}2022-04-19T15:36:23.337-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-19T15:37:07.582-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/loginText"
-                        className="login"
-                        text="Login"/>
+                    sling:resourceType="vue/components/container"
+                    id="bgColorContainer">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="13"/>
                     </cq:responsive>
-                    <input
-                        jcr:created="{Date}2022-04-20T14:13:51.108-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-20T14:14:12.347-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/input"
-                        placeholder="Usuário"
-                        type="text"/>
-                    <input_1055011473
-                        jcr:created="{Date}2022-04-20T14:07:13.592-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-20T14:07:37.326-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/input"
-                        placeholder="Senha"
-                        type="password"/>
                     <button_copy
                         jcr:created="{Date}2022-04-20T17:23:29.369-03:00"
                         jcr:createdBy="admin"
@@ -97,14 +57,89 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/button copy"/>
-                    <buttonlogin
-                        jcr:created="{Date}2022-04-20T17:41:29.590-03:00"
+                    <mobilelogo
+                        jcr:created="{Date}2022-04-25T13:56:43.957-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-20T17:41:48.024-03:00"
+                        jcr:lastModified="{Date}2022-04-25T13:56:43.957-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/buttonLogin"
-                        text="Continuar"/>
+                        sling:resourceType="vue/components/mobileLogo">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"
+                                offset="0"
+                                width="13"/>
+                        </cq:responsive>
+                    </mobilelogo>
+                    <container
+                        jcr:created="{Date}2022-04-22T10:40:46.521-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-22T11:25:46.970-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/container"
+                        id="formContainer">
+                        <logintext
+                            jcr:created="{Date}2022-04-25T11:33:15.667-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-25T11:33:29.937-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/loginText"
+                            className="title-text"
+                            text="Olá,"/>
+                        <logintext_242568218
+                            jcr:created="{Date}2022-04-22T10:41:49.118-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-22T10:42:15.589-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/loginText"
+                            className="subtitle-text"
+                            text="Para continuar navegando de forma segura, efetue o login na rede."/>
+                        <logintext_1229248853
+                            jcr:created="{Date}2022-04-22T10:41:57.360-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-22T10:42:25.625-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/loginText"
+                            className="login"
+                            text="Login"/>
+                        <input
+                            jcr:created="{Date}2022-04-25T16:26:25.044-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-25T16:26:32.027-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/input"
+                            placeholder="Usuário"
+                            type="text"/>
+                        <input_1515307344
+                            jcr:created="{Date}2022-04-25T16:26:41.515-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-25T16:26:49.876-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/input"
+                            placeholder="Senha"
+                            type="password"/>
+                        <buttonlogin
+                            jcr:created="{Date}2022-04-22T10:43:00.595-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-22T10:43:25.268-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/buttonLogin"
+                            text="Continuar"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="13"/>
+                        </cq:responsive>
+                    </container>
                 </container_1584677994>
                 <container
                     jcr:created="{Date}2022-04-19T14:06:24.046-03:00"
@@ -127,6 +162,12 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/rightLogin"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="11"/>
+                    </cq:responsive>
                 </container>
                 <custom_classes
                     jcr:created="{Date}2022-04-19T14:11:19.936-03:00"
@@ -136,13 +177,14 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/custom-classes"/>
                 <customclasses
-                    jcr:created="{Date}2022-04-19T15:34:49.316-03:00"
+                    jcr:created="{Date}2022-04-22T12:00:27.040-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-19T15:34:49.316-03:00"
+                    jcr:lastModified="{Date}2022-04-22T12:00:27.040-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/customClasses"/>
             </responsivegrid>
         </root>
     </jcr:content>
+    <home/>
 </jcr:root>

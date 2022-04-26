@@ -10,6 +10,7 @@ import Header from './components/Header/Header'
 import Image from './components/Image/Image'
 import Input from './components/Input/Input.vue'
 import LoginText from './components/LoginText/LoginText.vue'
+import MobileLogo from './components/MobileLogo/MobileLogo.vue'
 import AppPage from './components/Page/AppPage'
 import RightLogin from './components/RightLogin/RightLogin.vue'
 import Text from './components/Text/Text'
@@ -39,6 +40,8 @@ MapTo('vue/components/rightLogin')(RightLogin, EditConfig)
 MapTo('vue/components/loginText')(LoginText, EditConfig)
 
 MapTo('vue/components/input')(Input, EditConfig)
+
+MapTo('vue/components/mobileLogo')(MobileLogo, EditConfig)
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)

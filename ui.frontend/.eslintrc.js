@@ -13,6 +13,7 @@ module.exports = {
     ecmaVersion: 2022
   },
   rules: {
+    ignorePatterns: ['**/*.spec.js'],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     '@typescript-eslint/no-var-requires': 'off',

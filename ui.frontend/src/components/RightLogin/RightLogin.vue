@@ -26,4 +26,11 @@ img {
   width: 306px;
   height: 69px;
 }
+
+@media screen and (max-width: 768px) {
+  div {
+    display: none;
+  }
+}
+
 </style>

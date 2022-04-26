@@ -50,9 +50,9 @@ export default {
   font-weight: 400;
   font-size: 60px;
   color: #e0e0e0;
-  padding-top: 18.24%;
 
   width: 118px;
+  margin-bottom: 4%;
 }
 
 .subtitle-text {
@@ -71,7 +71,7 @@ export default {
   font-weight: 400;
   font-size: 30px;
   color: #e0e0e0;
-  padding-top: 18.24%;
+  margin-top: 25%;
   margin-bottom: 5%;
 
   width: 81px;

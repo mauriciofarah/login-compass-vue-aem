@@ -1,6 +1,13 @@
 <template>
-  <div>
-    <input :type="type" class="input-field" value :placeholder="placeholder" />
+  <div class="container-input">
+    <input
+      :type="type"
+      class="input-field"
+      value
+      :placeholder="placeholder"
+      @change="save"
+      v-model="form[loginData]"
+    />
     <div :class="iconClass">
       <img :src="icon" />
     </div>
@@ -23,51 +30,73 @@ export default {
   data () {
     return {
       icon: '',
-      iconClass: ''
+      iconClass: '',
+      loginData: 'email',
+      form: {
+        [this.loginData]: ''
+      }
     }
   },
   updated () {
+    // Set initial information of input
     if (this.type === 'text') {
       this.icon = '/content/dam/vue/user.png'
       this.iconClass = 'user-icon'
+      this.loginData = 'email'
     } else {
       this.icon = '/content/dam/vue/lock.png'
       this.iconClass = 'lock-icon'
+      this.loginData = 'password'
+    }
+  },
+  methods: {
+    // Function to save information on localStorage
+    save () {
+      localStorage.setItem(this.loginData, this.form[this.loginData])
     }
   }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.container-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+  position: relative;
+}
 .input-field {
   padding: 16px 16px;
   background: transparent;
-  width: 379px;
+  height: 60px;
+  width: 100%;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 50px;
-  margin-bottom: 5%;
+  outline: none;
 
   font-family: "Mark Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #e0e0e0;
+
+  &:focus::placeholder {
+    color: transparent;
+  }
 }
 
 .user-icon {
-  display: inline-block;
-  vertical-align: middle;
   width: 20px;
   height: 20px;
-  margin-left: -6%;
+  position: absolute;
+  right: 20px;
 }
 
 .lock-icon {
-  display: inline-block;
-  vertical-align: middle;
   width: 20px;
   height: 25.1px;
-  margin-left: -6%;
+  position: absolute;
+  right: 20px;
 }
 </style>

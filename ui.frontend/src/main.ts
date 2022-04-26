@@ -1,17 +1,19 @@
-import './map-components'
+// @ts-ignore
+// import store from '@/store/index.js'
 import { AuthoringUtils, ModelManager } from '@adobe/aem-spa-page-model-manager'
-import Vue from 'vue'
-import App from './App'
-import VueRouter from 'vue-router'
-import ElementUI from 'element-ui'
 import { Constants } from '@mavice/aem-vue-editable-components'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import App from './App'
+import './map-components'
 
-Vue.use(ElementUI)
 Vue.use(VueRouter)
 
 document.addEventListener('DOMContentLoaded', () => {
   ModelManager.initialize().then(pageModel => {
     new Vue({
+      // @ts-ignore
+      // store,
       router: new VueRouter({
         mode: 'history',
         routes: []
