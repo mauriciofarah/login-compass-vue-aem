@@ -9,12 +9,15 @@ export default {
   name: 'HomeLogo',
   data () {
     return {
-      HomeLogo: '/content/dam/vue/uolLogo.png'
+      HomeLogo: '/content/dam/vue/LogoCompassoHome.png'
     }
   }
 }
 </script>
 
 <style scoped lang="scss">
-
+img {
+  width: 150px;
+  height: 42.75px;
+}
 </style>

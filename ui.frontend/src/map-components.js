@@ -6,6 +6,8 @@ import Button from './components/Button/Button'
 import ButtonLogin from './components/ButtonLogin/ButtonLogin'
 import CheckBox from './components/Checkbox/Checkbox'
 import CustomClasses from './components/CustomClasses/CustomClasses'
+import CustomClassesHome from './components/CustomClassesHome/CustomClassesHome'
+import DateTime from './components/DateTime/DateTime'
 import ErrorMessage from './components/ErrorMessage/ErrorMessage'
 import Header from './components/Header/Header'
 import HomeLogo from './components/HomeLogo/HomeLogo'
@@ -37,6 +39,8 @@ MapTo('vue/components/buttonLogin')(ButtonLogin, EditConfig)
 
 MapTo('vue/components/customClasses')(CustomClasses, EditConfig)
 
+MapTo('vue/components/customClassesHome')(CustomClassesHome, EditConfig)
+
 MapTo('vue/components/rightLogin')(RightLogin, EditConfig)
 
 MapTo('vue/components/loginText')(LoginText, EditConfig)
@@ -48,6 +52,8 @@ MapTo('vue/components/mobileLogo')(MobileLogo, EditConfig)
 MapTo('vue/components/homeLogo')(HomeLogo, EditConfig)
 
 MapTo('vue/components/errorMessage')(ErrorMessage, EditConfig)
+
+MapTo('vue/components/dateTime')(DateTime, EditConfig)
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)

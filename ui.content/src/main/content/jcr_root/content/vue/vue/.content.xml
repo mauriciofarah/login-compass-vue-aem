@@ -82,7 +82,6 @@
                     displayPopupTitle="true"
                     fileName="content.png"
                     isDecorative="false">
-                    <file/>
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
@@ -93,6 +92,7 @@
                             offset="0"
                             width="23"/>
                     </cq:responsive>
+                    <file/>
                 </image>
                 <accordion
                     jcr:created="{Date}2022-04-11T21:58:46.775-03:00"
@@ -239,4 +239,5 @@
     </jcr:content>
     <_x0034_04-not-found/>
     <login/>
+    <home/>
 </jcr:root>
