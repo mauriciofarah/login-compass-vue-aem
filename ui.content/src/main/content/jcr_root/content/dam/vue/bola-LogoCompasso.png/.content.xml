@@ -2,31 +2,31 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="2147bb3a-91fe-4da1-bd04-2aa3c2d2994e">
+    jcr:uuid="1e536d1a-5a23-4f83-a2af-8c6653d0637c">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-04-27T14:53:53.086-03:00"
+        jcr:lastModified="{Date}2022-04-27T16:07:49.516-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2022-04-27T14:53:52.982-03:00"
+            dam:extracted="{Date}2022-04-27T16:07:49.206-03:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
             dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}0.5971475839614868"
+            dam:Physicalheightininches="{Decimal}11.456901550292969"
             dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}2.0830729007720947"
+            dam:Physicalwidthininches="{Decimal}8.137871742248535"
             dam:Progressive="no"
-            dam:sha1="ca24ebb5dbd97f8182d87774c83c5d036192fa6c"
-            dam:size="{Long}4444"
+            dam:sha1="cbf92f95a728dd3890c898e887735afda3e854b2"
+            dam:size="{Long}232112"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}43"
-            tiff:ImageWidth="{Long}150"/>
+            tiff:ImageLength="{Long}825"
+            tiff:ImageWidth="{Long}586"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

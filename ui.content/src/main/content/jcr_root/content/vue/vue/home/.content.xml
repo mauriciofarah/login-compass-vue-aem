@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-27T14:48:00.466-03:00"
+        cq:lastModified="{Date}2022-04-27T18:04:50.848-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -19,9 +19,9 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <customclasseshome
-                    jcr:created="{Date}2022-04-27T14:42:04.715-03:00"
+                    jcr:created="{Date}2022-04-27T17:00:43.143-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-27T14:42:04.715-03:00"
+                    jcr:lastModified="{Date}2022-04-27T17:00:43.143-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/customClassesHome"/>
@@ -49,7 +49,7 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="8"/>
+                                width="2"/>
                         </cq:responsive>
                     </homelogo>
                     <datetime
@@ -63,7 +63,7 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="8"/>
+                                width="4"/>
                         </cq:responsive>
                     </datetime>
                 </container>
@@ -80,6 +80,120 @@
                             offset="0"
                             width="24"/>
                     </cq:responsive>
+                    <container_1086702911
+                        jcr:created="{Date}2022-04-27T16:58:52.352-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T16:58:52.352-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/container"/>
+                    <container
+                        jcr:created="{Date}2022-04-27T15:02:01.337-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T15:02:01.337-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/container">
+                        <hometext
+                            jcr:created="{Date}2022-04-27T15:02:23.223-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:02:23.223-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/HomeText"/>
+                        <hometext_1955604153
+                            jcr:created="{Date}2022-04-27T15:02:27.797-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:02:27.797-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/HomeText"/>
+                        <hometext_1064216230
+                            jcr:created="{Date}2022-04-27T15:03:06.507-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:03:06.507-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/HomeText"/>
+                        <hometext_2116645469
+                            jcr:created="{Date}2022-04-27T15:05:59.741-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:09:15.581-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="normal-title"
+                            text="Our mission is"/>
+                        <hometext_1337628736
+                            jcr:created="{Date}2022-04-27T15:06:21.392-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:46:59.253-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="subtitle"
+                            text="Nossa missão é"/>
+                        <hometext_1470278021
+                            jcr:created="{Date}2022-04-27T15:06:23.428-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:09:44.910-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="bold-title"
+                            text="to transform the world"/>
+                        <hometext_1831445736
+                            jcr:created="{Date}2022-04-27T15:06:25.243-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:47:04.695-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="subtitle"
+                            text="transformar o mundo"/>
+                        <hometext_1321676552
+                            jcr:created="{Date}2022-04-27T15:06:26.857-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:10:23.150-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="bold-title"
+                            text="building digital experiences"/>
+                        <hometext_913559614
+                            jcr:created="{Date}2022-04-27T15:06:28.747-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:47:09.850-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="subtitle"
+                            text="construindo experiências digitais"/>
+                        <hometext_1410913311
+                            jcr:created="{Date}2022-04-27T15:06:30.579-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:10:46.155-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="bold-title"
+                            text="that enable our client’s growth"/>
+                        <hometext_38546808
+                            jcr:created="{Date}2022-04-27T15:06:32.418-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T15:47:18.012-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/homeText"
+                            className="subtitle"
+                            text="que permitam o crescimento dos nossos clientes"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="5"
+                                width="10"/>
+                        </cq:responsive>
+                    </container>
                     <responsivegrid_1874671385
                         jcr:created="{Date}2022-04-27T14:47:02.467-03:00"
                         jcr:createdBy="admin"
@@ -95,6 +209,44 @@
                         </cq:responsive>
                     </responsivegrid_1874671385>
                 </container_1756929429>
+                <container_1886506667
+                    jcr:created="{Date}2022-04-27T17:21:35.417-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-27T17:21:35.417-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/container">
+                    <container
+                        jcr:created="{Date}2022-04-27T17:22:51.434-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T17:22:51.434-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/container">
+                        <footertext
+                            jcr:created="{Date}2022-04-27T17:58:07.737-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-27T17:58:30.575-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/footerText"
+                            text="Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar."/>
+                    </container>
+                    <container_844255694
+                        jcr:created="{Date}2022-04-27T17:23:00.845-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T17:23:00.845-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/container"/>
+                    <container_759350401
+                        jcr:created="{Date}2022-04-27T17:23:14.338-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T17:23:14.338-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/container"/>
+                </container_1886506667>
             </responsivegrid>
         </root>
     </jcr:content>

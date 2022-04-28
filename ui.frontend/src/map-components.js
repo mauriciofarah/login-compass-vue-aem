@@ -9,8 +9,9 @@ import CustomClasses from './components/CustomClasses/CustomClasses'
 import CustomClassesHome from './components/CustomClassesHome/CustomClassesHome'
 import DateTime from './components/DateTime/DateTime'
 import ErrorMessage from './components/ErrorMessage/ErrorMessage'
-import Header from './components/Header/Header'
+import FooterText from './components/FooterText/FooterText'
 import HomeLogo from './components/HomeLogo/HomeLogo'
+import HomeText from './components/HomeText/HomeText'
 import Image from './components/Image/Image'
 import Input from './components/Input/Input'
 import LoginText from './components/LoginText/LoginText'
@@ -45,6 +46,8 @@ MapTo('vue/components/rightLogin')(RightLogin, EditConfig)
 
 MapTo('vue/components/loginText')(LoginText, EditConfig)
 
+MapTo('vue/components/homeText')(HomeText, EditConfig)
+
 MapTo('vue/components/input')(Input, EditConfig)
 
 MapTo('vue/components/mobileLogo')(MobileLogo, EditConfig)
@@ -55,11 +58,10 @@ MapTo('vue/components/errorMessage')(ErrorMessage, EditConfig)
 
 MapTo('vue/components/dateTime')(DateTime, EditConfig)
 
+MapTo('vue/components/footerText')(FooterText, EditConfig)
+
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)
-
-// Header Component Mapping
-MapTo('vue/components/header')(Header, EditConfig)
 
 // Image Component Mapping
 MapTo('vue/components/image')(Image, {

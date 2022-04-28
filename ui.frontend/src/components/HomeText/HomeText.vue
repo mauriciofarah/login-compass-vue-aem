@@ -44,4 +44,29 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.normal-title {
+  font-family: 'Mark Pro';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: right;
+  color: #C12D18;
+}
+
+.bold-title {
+  font-family: 'Mark Pro';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 81px;
+  text-align: right;
+  color: #C12D18;
+}
+
+.subtitle {
+  font-family: 'Mark Pro';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: right;
+}
 </style>

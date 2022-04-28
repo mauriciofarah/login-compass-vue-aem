@@ -20,9 +20,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-div {
-  height: 183px;
-}
 .clock {
   font-family: 'Mark Pro';
   font-weight: 700;
