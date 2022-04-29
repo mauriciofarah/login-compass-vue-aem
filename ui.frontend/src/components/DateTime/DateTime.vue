@@ -1,7 +1,7 @@
 <template>
   <div class="">
-    <p class="clock">{{ clock }}</p>
-    <p class="date">{{ date }}</p>
+    <span class="clock">{{ clock }}</span>
+    <span class="date">{{ date }}</span>
   </div>
 </template>
 
@@ -12,20 +12,29 @@ export default {
   name: 'DateTime',
   data () {
     return {
-      date: moment().locale('pt-br').format('LLLL').slice(0, -9),
-      clock: moment().locale('pt-br').format('LT')
+      clock: moment().locale('pt-br').format('LT'),
+      date: moment().locale('pt-br').format('LLLL').slice(0, -9)
     }
+  },
+  mounted () {
+    setInterval(() => {
+      this.clock = moment().locale('pt-br').format('LT')
+    }, 1000)
   }
 }
 </script>
 
 <style scoped lang="scss">
+div {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3%;
+}
 .clock {
   font-family: 'Mark Pro';
   font-weight: 700;
   font-size: 144px;
   text-align: center;
-  margin: 0px;
 }
 .date {
   font-family: 'Mark Pro';

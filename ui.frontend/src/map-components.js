@@ -15,10 +15,12 @@ import HomeText from './components/HomeText/HomeText'
 import Image from './components/Image/Image'
 import Input from './components/Input/Input'
 import LoginText from './components/LoginText/LoginText'
+import LogoutSection from './components/LogoutSection/LogoutSection'
 import MobileLogo from './components/MobileLogo/MobileLogo'
 import AppPage from './components/Page/AppPage'
 import RightLogin from './components/RightLogin/RightLogin'
 import Text from './components/Text/Text'
+import Weather from './components/Weather/Weather'
 
 MapTo('vue/components/page')(withComponentMappingContext(AppPage))
 
@@ -59,6 +61,10 @@ MapTo('vue/components/errorMessage')(ErrorMessage, EditConfig)
 MapTo('vue/components/dateTime')(DateTime, EditConfig)
 
 MapTo('vue/components/footerText')(FooterText, EditConfig)
+
+MapTo('vue/components/weather')(Weather, EditConfig)
+
+MapTo('vue/components/logoutSection')(LogoutSection, EditConfig)
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)

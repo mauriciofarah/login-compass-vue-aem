@@ -6,43 +6,43 @@
 export default {
   name: 'CustomClasses',
   mounted () {
-    const headerHome = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid"] div')
+    const headerHome = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422"]')
     headerHome.classList.add('header-home')
 
     const bgImage = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1756929429/container_1086702911"] div')
     bgImage.classList.add('bg-img')
 
-    const bgColorFooter = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1886506667"] div')
+    const bgColorFooter = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_982804521"] div')
     bgColorFooter.classList.add('bg-color-footer')
 
-    const firstContainerFoot = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1886506667/container"] div')
-    firstContainerFoot.classList.add('first-container-footer')
+    const weatherCard = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422/weather"]')
+    weatherCard.classList.add('weather-card')
 
-    const secondContainerFoot = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1886506667/container_844255694"] div')
-    secondContainerFoot.classList.add('second-container-footer')
+    const dateCard = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422/datetime"]')
+    dateCard.classList.add('date-card')
 
-    const thirdContainerFoot = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1886506667/container_759350401"] div')
-    thirdContainerFoot.classList.add('third-container-footer')
+    const homelogoCard = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422/homelogo"]')
+    homelogoCard.classList.add('logo-card')
   }
 }
 </script>
 
 <style lang="scss">
 .header-home {
-  /* display: flex;
-  justify-content: space-between; */
-  padding: 25px 7% 20px 40px;
-  /* align-items: flex-start;
-  flex-direction: row; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100% !important;
+  padding: 2% 2% 7% 2%;
 }
 
 .bg-img {
   background: url('/content/dam/vue/bola-LogoCompasso.png');
   background-size: cover;
-  width: 825px;
-  height: 100%;
+  width: 618.5px;
+  height: 825px;
   position: absolute;
-  top: 20%;
+  bottom: 4%;
 }
 
 .bg-color-footer {
@@ -54,18 +54,20 @@ export default {
   z-index: 2;
 
   display: flex;
-  //flex-direction: row;
 }
 
-.first-container-footer {
-  border-right: solid 1px #FFFFFF;
+.weather-card {
+  display: flex !important;
+  justify-content: flex-end;
+  width: 33.333% !important;
 }
 
-.second-container-footer {
-  border-right: solid 1px #FFFFFF;
+.date-card {
+  width: 33.333% !important;
+  margin: 0 !important;
 }
 
-.third-container-footer {
-
+.logo-card {
+  width: 33.333% !important;
 }
 </style>

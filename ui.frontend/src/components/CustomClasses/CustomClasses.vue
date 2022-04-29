@@ -17,9 +17,6 @@ export default {
 
     const imageMobile = document.querySelector('[cqpath="/content/vue/vue/login/jcr:content/root/responsivegrid/container_1584677994/container/image"] ')
     imageMobile.classList.add('mobile-logo')
-
-    const headerHome = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container"] ')
-    headerHome.classList.add('header-home')
   }
 }
 </script>
@@ -62,13 +59,5 @@ export default {
   .bg-image {
     background: transparent;
   }
-}
-
-.header-home {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 7% 20px 40px;
-  align-items: flex-start;
-  flex-direction: row;
 }
 </style>
