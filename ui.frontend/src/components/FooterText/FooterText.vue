@@ -18,9 +18,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
-p {
+div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 2%;
+
+  p {
   width: 541px;
-  height: 58px;
   color: #FFFFFF;
 
   font-family: 'Mark Pro';
@@ -28,5 +33,6 @@ p {
   font-size: 12px;
   line-height: 15px;
   text-align: right;
+}
 }
 </style>

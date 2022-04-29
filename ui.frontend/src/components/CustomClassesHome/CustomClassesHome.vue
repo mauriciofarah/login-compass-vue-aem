@@ -12,7 +12,7 @@ export default {
     const bgImage = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1756929429/container_1086702911"] div')
     bgImage.classList.add('bg-img')
 
-    const bgColorFooter = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_982804521"] div')
+    const bgColorFooter = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid"] div')
     bgColorFooter.classList.add('bg-color-footer')
 
     const weatherCard = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422/weather"]')
@@ -23,6 +23,9 @@ export default {
 
     const homelogoCard = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422/homelogo"]')
     homelogoCard.classList.add('logo-card')
+
+    const inputHome = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid/inputhome"]')
+    inputHome.classList.add('home-input')
   }
 }
 </script>
@@ -69,5 +72,10 @@ export default {
 
 .logo-card {
   width: 33.333% !important;
+}
+
+.home-input {
+  display: flex !important;
+  align-items: center;
 }
 </style>

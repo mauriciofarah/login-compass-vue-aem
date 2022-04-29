@@ -14,6 +14,7 @@ import HomeLogo from './components/HomeLogo/HomeLogo'
 import HomeText from './components/HomeText/HomeText'
 import Image from './components/Image/Image'
 import Input from './components/Input/Input'
+import InputHome from './components/InputHome/InputHome'
 import LoginText from './components/LoginText/LoginText'
 import LogoutSection from './components/LogoutSection/LogoutSection'
 import MobileLogo from './components/MobileLogo/MobileLogo'
@@ -51,6 +52,8 @@ MapTo('vue/components/loginText')(LoginText, EditConfig)
 MapTo('vue/components/homeText')(HomeText, EditConfig)
 
 MapTo('vue/components/input')(Input, EditConfig)
+
+MapTo('vue/components/inputHome')(InputHome, EditConfig)
 
 MapTo('vue/components/mobileLogo')(MobileLogo, EditConfig)
 

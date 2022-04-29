@@ -2,7 +2,7 @@
   <div class="container-input">
     <input
       :type="type"
-      class="input-field"
+      class="container-input__input-field"
       value
       :placeholder="placeholder"
       @change="save"
@@ -64,25 +64,26 @@ export default {
   align-items: center;
   margin-bottom: 10%;
   position: relative;
-}
-.input-field {
-  padding: 16px 16px;
-  background: transparent;
-  height: 60px;
-  width: 100%;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  border-radius: 50px;
-  outline: none;
 
-  font-family: "Mark Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #e0e0e0;
+  &__input-field {
+    padding: 16px 16px;
+    background: transparent;
+    height: 60px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
 
-  &:focus::placeholder {
-    color: transparent;
+    font-family: "Mark Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #e0e0e0;
+
+    &:focus::placeholder {
+      color: transparent;
+    }
   }
 }
 

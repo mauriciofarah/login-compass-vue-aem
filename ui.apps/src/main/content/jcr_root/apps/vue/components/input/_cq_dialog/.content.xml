@@ -18,7 +18,7 @@
                         name="./placeholder"/>
                 </items>
             </column>
-            <placeholder cq-msm-lockable="./type"
+            <type cq-msm-lockable="./type"
                 fieldLabel="Input type"
                 jcr:primaryType="nt:unstructured"
                 name="./type"
