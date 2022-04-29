@@ -29,21 +29,30 @@ div {
   display: flex;
   flex-direction: column;
   margin-top: -3%;
-}
-.clock {
-  font-family: 'Mark Pro';
-  font-weight: 700;
-  font-size: 144px;
-  text-align: center;
-}
-.date {
-  font-family: 'Mark Pro';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
 
-  text-align: center;
-  margin: 0px;
+  .clock {
+    font-family: 'Mark Pro';
+    font-weight: 700;
+    font-size: 144px;
+    text-align: center;
+  }
+
+  .date {
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-align: center;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .clock,
+  .date {
+    display: none !important;
+  }
 }
 </style>

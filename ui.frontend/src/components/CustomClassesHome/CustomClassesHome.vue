@@ -26,6 +26,15 @@ export default {
 
     const inputHome = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid/inputhome"]')
     inputHome.classList.add('home-input')
+
+    const mediaFooterText = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid/footertext"] ')
+    mediaFooterText.classList.add('media-footer-text')
+
+    const mediaBodyText = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/container_1756929429/container"] ')
+    mediaBodyText.classList.add('media-body-text')
+
+    const mediaHeaderHome = document.querySelector('[cqpath="/content/vue/vue/home/jcr:content/root/responsivegrid/responsivegrid_1511877422"] div')
+    mediaHeaderHome.classList.add('media-header-home')
   }
 }
 </script>
@@ -39,6 +48,12 @@ export default {
   padding: 2% 2% 7% 2%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .media-header-home {
+    display: flex !important;
+  }
+}
+
 .bg-img {
   background: url('/content/dam/vue/bola-LogoCompasso.png');
   background-size: cover;
@@ -46,6 +61,22 @@ export default {
   height: 825px;
   position: absolute;
   bottom: 4%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bg-img {
+    width: 543px;
+    height: 679px;
+    bottom: 9%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .bg-img {
+    width: 496px;
+    height: 676px;
+    bottom: 5%;
+  }
 }
 
 .bg-color-footer {
@@ -77,5 +108,17 @@ export default {
 .home-input {
   display: flex !important;
   align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .media-footer-text {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .media-body-text {
+    display: none !important;
+  }
 }
 </style>

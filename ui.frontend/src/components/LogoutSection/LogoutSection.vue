@@ -146,5 +146,13 @@ export default {
             cursor: pointer;
         }
     }
+
+    @media only screen and (max-width: 768px) {
+      &__seconds,
+      &__measurement,
+      &__refresh-text {
+          display: none;
+        }
+    }
 }
 </style>

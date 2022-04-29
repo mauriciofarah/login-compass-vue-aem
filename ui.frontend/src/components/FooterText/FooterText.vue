@@ -25,14 +25,14 @@ div {
   padding: 0px 2%;
 
   p {
-  width: 541px;
-  color: #FFFFFF;
+    width: 541px;
+    color: #FFFFFF;
 
-  font-family: 'Mark Pro';
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: right;
-}
+    font-family: 'Mark Pro';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+  }
 }
 </style>

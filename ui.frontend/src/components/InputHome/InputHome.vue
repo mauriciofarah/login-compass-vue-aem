@@ -58,6 +58,19 @@ export default {
     }
   }
 
+  @media only screen and (max-width: 1024px) {
+  border-right: 0px;
+  border-left: 0px;
+
+  &__input-field {
+      width: 219px;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    padding-left: 20%;
+  }
+
   &__user-icon {
     width: 20px;
     height: 20px;
